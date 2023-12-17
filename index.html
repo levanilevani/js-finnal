@@ -1,0 +1,117 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>first Javascript project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="Main.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="header.css" />
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+
+    <header class="header">
+      <nav class="navbar">
+        <div class="header__logo">
+          <img class="header__logo--img" src="./Logo.png" alt="logo" />
+        </div>
+    <div class="menu-icon">
+          <i class="fas fa-bars" id="menu-icon"></i>
+        </div> 
+         
+
+        <div class="nav-links .mobile-menu">
+          <ul class="header__actions active">
+            <i class="fas fa-bars"  id="menu-icon" >
+          <img src="./Menu icon.png" alt="Menu" />
+        </i>
+            <li class="header__actions--item">
+              <a href="#">Home</a>
+            </li>
+            <li class="header__actions--item">
+              <a href="#">Menu</a>
+            </li>
+            <li class="header__actions--item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="header__actions--item">
+              <a href="#">Our story</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__log">
+          <button class="btn">Log in</button>
+        </div>
+      </nav>
+    </header>
+    <!------main------>
+
+    <main class="main">
+      <div class="image-slider">
+        <div class="image-slider__item">
+        <button id="prev-button" style="border: none;">
+          <img src="./left.png" alt="" class="image-solitude" />
+        </button>
+        <img id="slider-image" src="./image.png" alt="" />
+        <button id="next-button" style="border: none;">
+          <img src="./right.png" alt="" class="image-solitude" />
+        </button>
+      </div>
+      </div>
+
+
+
+  
+
+      <!-- --------- -->
+
+      <div class="card__container"></div>
+      <div class="pagination"></div>
+    </main>
+
+    <footer class="footer">
+      <nav class="nav">
+        <div class="board">
+          <dt class="contact__" style="margin-left: 40px">About</dt>
+          <dd class="board__actions">Lorem.</dd>
+          <dd class="board__actions">Lorem.</dd>
+          <dd class="board__actions">Lorem.</dd>
+          <dd class="board__actions">Lorem.</dd>
+        </div>
+        <div class="policy">
+          <dt class="contact__" style="margin-left: 40px">Policy</dt>
+          <dd class="policy__actions">Lorem.</dd>
+          <dd class="policy__actions">Lorem.</dd>
+          <dd class="policy__actions">Lorem.</dd>
+        </div>
+        <div class="contact">
+          <dt class="contact__" style="margin-left: 40px">Contact</dt>
+          <dd class="contact__actions">Lorem.</dd>
+          <dd class="contact__actions">Lorem.</dd>
+          <dd class="contact__actions">Lorem.</dd>
+          <dd class="contact__actions">Lorem.</dd>
+        </div>
+
+        <div class="register">
+          <dt>Come join us</dt>
+          <input
+            type="text"
+            placeholder="enter email                    >"
+            style="border: none"
+          />
+          <div class="footer__img">
+            <img src="./facebook.png" alt="" style="width: 30px" />
+            <img src="./instagram.png" alt="" style="width: 30px" />
+            <img src="./twitter.png" alt="" style="width: 30px" />
+          </div>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
